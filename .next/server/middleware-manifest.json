@@ -1,0 +1,67 @@
+{
+  "version": 3,
+  "middleware": {},
+  "functions": {
+    "/api/hello/route": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/api/hello/route_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/edge-chunks/557.js",
+        "server/app/api/hello/route.js"
+      ],
+      "name": "app/api/hello/route",
+      "page": "/api/hello/route",
+      "matchers": [
+        {
+          "regexp": "^/api/hello$",
+          "originalSource": "/api/hello"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "VE5mvyrtmcCNQsJukSyuu",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "nsaJDvKQLA1wzUbxWyurlBVaOE5hUCwM4Hi74ymstRw=",
+        "__NEXT_PREVIEW_MODE_ID": "04e2adbf1d94dc8c830e542c3b6b4b16",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "20386210f1aa49de34fbcbd929893de79ed4514c5c84d10a93284e616336c01d",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "bc1d38a6bc503d76b610f5b83b783f22a9e8ffde0cd5ac035ceaa9a5aa45931b"
+      }
+    },
+    "/_not-found/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/_not-found/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/edge-chunks/557.js",
+        "server/app/_not-found/page.js"
+      ],
+      "name": "app/_not-found/page",
+      "page": "/_not-found/page",
+      "matchers": [
+        {
+          "regexp": "^/_not\\-found$",
+          "originalSource": "/_not-found"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "VE5mvyrtmcCNQsJukSyuu",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "nsaJDvKQLA1wzUbxWyurlBVaOE5hUCwM4Hi74ymstRw=",
+        "__NEXT_PREVIEW_MODE_ID": "04e2adbf1d94dc8c830e542c3b6b4b16",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "20386210f1aa49de34fbcbd929893de79ed4514c5c84d10a93284e616336c01d",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "bc1d38a6bc503d76b610f5b83b783f22a9e8ffde0cd5ac035ceaa9a5aa45931b"
+      }
+    }
+  },
+  "sortedMiddleware": []
+}
