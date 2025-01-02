@@ -119,10 +119,18 @@
       "status": 404
     },
     {
+      "src": "^/test/(?<nxtPid>[^/]+?)(?:\\.rsc)(?:/)?$",
+      "dest": "/test/[id].rsc?nxtPid=$nxtPid"
+    },
+    {
+      "src": "^/test/(?<nxtPid>[^/]+?)(?:/)?$",
+      "dest": "/test/[id]?nxtPid=$nxtPid"
+    },
+    {
       "handle": "hit"
     },
     {
-      "src": "/_next/static/(?:[^/]+/pages|pages|chunks|runtime|css|image|media|VE5mvyrtmcCNQsJukSyuu)/.+",
+      "src": "/_next/static/(?:[^/]+/pages|pages|chunks|runtime|css|image|media|UE\\-yvIf8wrg4oP48vAtwM)/.+",
       "headers": {
         "cache-control": "public,max-age=31536000,immutable"
       },
