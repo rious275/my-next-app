@@ -1,9 +1,11 @@
 import Link from "next/link";
 
-export default function Home() {
+const Test = () => {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <Link href="/test">누르면 라우트 이동</Link>
+      <Link href="/">누르면 홈으로</Link>
     </div>
   );
-}
+};
+
+export default Test;
