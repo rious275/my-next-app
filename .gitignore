@@ -33,12 +33,10 @@ yarn-error.log*
 .env*
 
 # vercel
-.vercel
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
 
 # wrangler files
-.wrangler
 .dev.vars
